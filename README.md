@@ -3,6 +3,23 @@
 自分用の Agent Skills 集（SKILL.md 形式 / Claude Code 向け）。
 各スキルは `skills/<skill-name>/SKILL.md` に置く。
 
+## インストール
+
+Node.js が必要。`~/.claude/skills/` にスキルをコピーする。
+
+```bash
+# すべてインストール
+npx github:kekemoto/skills add all
+
+# 個別にインストール
+npx github:kekemoto/skills add harness harness-coder
+
+# インストール可能なスキル一覧を表示
+npx github:kekemoto/skills list
+```
+
+インストール後は Claude Code を再起動するとスキルが有効になる。
+
 ## harness フロー
 
 要件定義から実装・PR 作成までを担う AI 駆動開発フロー。5 つのスキルで構成される。

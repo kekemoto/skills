@@ -1,0 +1,13 @@
+{
+  "name": "@kekemoto/skills",
+  "version": "1.0.0",
+  "description": "Personal Claude Code Agent Skills",
+  "bin": {
+    "skills": "./bin/skills.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kekemoto/skills.git"
+  },
+  "license": "MIT"
+}
