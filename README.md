@@ -6,13 +6,12 @@
 ## インストール
 
 ```bash
+# すべてインストール
 npx skills add kekemoto/skills
-```
 
-グローバルにインストールする場合:
-
-```bash
-npx skills add kekemoto/skills -g
+# 個別にインストール
+npx skills add kekemoto/skills --skill harness
+npx skills add kekemoto/skills --skill harness --skill harness-coder
 ```
 
 `skills` CLI は [vercel-labs/skills](https://github.com/vercel-labs/skills) が提供する。
