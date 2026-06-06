@@ -5,20 +5,17 @@
 
 ## インストール
 
-Node.js が必要。`~/.claude/skills/` にスキルをコピーする。
-
 ```bash
-# すべてインストール
-npx github:kekemoto/skills add all
-
-# 個別にインストール
-npx github:kekemoto/skills add harness harness-coder
-
-# インストール可能なスキル一覧を表示
-npx github:kekemoto/skills list
+npx skills add kekemoto/skills
 ```
 
-インストール後は Claude Code を再起動するとスキルが有効になる。
+グローバルにインストールする場合:
+
+```bash
+npx skills add kekemoto/skills -g
+```
+
+`skills` CLI は [vercel-labs/skills](https://github.com/vercel-labs/skills) が提供する。
 
 ## harness フロー
 
