@@ -55,6 +55,7 @@ harness フローとは独立して単体で使うユーティリティ。
 |---|---|---|
 | diff-summary | `/diff-summary` | 実装後の変更サマリを auditability 重視の定型フォーマットで出力 |
 | walkthrough | `/walkthrough` | 長い文書を数行ずつ区切り、確認を取りながら解説 |
+| teach-me | `/teach-me` | 学習対象を依存関係順に1概念ずつ解説し、各ステップで理解度を確認しながら進める |
 
 ## スキル一覧
 
@@ -67,3 +68,4 @@ harness フローとは独立して単体で使うユーティリティ。
 | `harness-coder` | spec 群を番号順に実装し feature→main PR を作成 |
 | `diff-summary` | 変更差分を意図・設計判断・懸念ベースで構造化して報告 |
 | `walkthrough` | 長い文書を段階的に確認を取りながら解説 |
+| `teach-me` | 学習対象を依存関係順に1概念ずつ徹底解説し、理解度を確認しながら進める |
